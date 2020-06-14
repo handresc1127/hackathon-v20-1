@@ -24,3 +24,14 @@ hs_err_pid*
 
 # IntelliJ
 .idea/
+*.iml
+
+# CMake
+cmake-build-*/
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
