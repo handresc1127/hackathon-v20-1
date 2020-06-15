@@ -35,3 +35,12 @@ cmake-build-*/
 # IntelliJ
 out/
 
+/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# TestNG
+test-output/
