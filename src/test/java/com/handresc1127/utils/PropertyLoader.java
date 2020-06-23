@@ -10,14 +10,14 @@ import java.util.Properties;
 
 public class PropertyLoader {
 
-    private static Properties properties = System.getProperties();
+    private static final Properties properties = System.getProperties();
     private static final Logger LOGGER = LoggerFactory.getLogger(PropertyLoader.class);
     private static boolean isLoaded=false;
 
 
     static void loadProperties(){
         try{
-            properties.load(new FileInputStream(new File("resources/test.properties")));
+            properties.load(new FileInputStream(new File("src/test/resources/test.properties")));
             isLoaded=true;
         }catch (Exception ex){
             LOGGER.debug("Loading properties error ",ex);

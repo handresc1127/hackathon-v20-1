@@ -7,6 +7,8 @@ import org.apache.commons.io.IOUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.nio.charset.StandardCharsets;
+
 public class EyesManager {
     Eyes eyes;
     String appName;
@@ -77,15 +79,13 @@ public class EyesManager {
         try {
             Process process = Runtime.getRuntime().exec(command);
             process.waitFor();
-            result = IOUtils.toString(process.getInputStream(), "UTF-8");
+            result = IOUtils.toString(process.getInputStream(), StandardCharsets.UTF_8);
         }catch (Exception ex){
             return false;
         }
         System.out.println(result);
         if (result != null){
-            if (result.contains("Passed")){
-                return true;
-            }
+            return result.contains("Passed");
         }
         return false;
     }

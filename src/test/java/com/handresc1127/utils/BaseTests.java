@@ -68,7 +68,6 @@ public class BaseTests{
         String task=ste[3].getFileName().replace(".java","");
         String testName=ste[3].getMethodName();
         //TODO fix test Name from test content
-        PropertyLoader.printProperties();
         try(BufferedWriter writer = new BufferedWriter(new FileWriter("Traditional-V1-TestResults.txt", true))){
             writer.write("Task: " + task + ", Test Name: " + testName +", DOM Locator: " + domLocator + ", Browser: " + browser
                     + ", Viewport: " + viewport + ", Device: " + device + ", Status: " + (comparisonResult ? "Pass" : "Fail"));
