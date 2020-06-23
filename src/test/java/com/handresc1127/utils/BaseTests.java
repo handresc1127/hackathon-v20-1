@@ -29,8 +29,8 @@ public class BaseTests{
     @BeforeClass
     public static void beforeAll(@Optional("Chrome") String _browser, @Optional("Laptop") String _device){
         PropertyLoader.loadProperties();
-        System.out.println();
-        System.out.println("Browser:" + _browser+" Device:"+_device);
+        LOGGER.info("");
+        LOGGER.info("Browser:" + _browser+" Device:"+_device);
 
         driverManager = DriverManagerFactory.getManager(_browser);
         driver=driverManager.getDriver(_browser);
@@ -67,13 +67,14 @@ public class BaseTests{
         final StackTraceElement[] ste = Thread.currentThread().getStackTrace();
         String task=ste[3].getFileName().replace(".java","");
         String testName=ste[3].getMethodName();
+        //TODO fix test Name from test content
+        PropertyLoader.printProperties();
         try(BufferedWriter writer = new BufferedWriter(new FileWriter("Traditional-V1-TestResults.txt", true))){
             writer.write("Task: " + task + ", Test Name: " + testName +", DOM Locator: " + domLocator + ", Browser: " + browser
                     + ", Viewport: " + viewport + ", Device: " + device + ", Status: " + (comparisonResult ? "Pass" : "Fail"));
             writer.newLine();
         }catch(Exception e){
-            System.out.println("Error writing to report file");
-            e.printStackTrace();
+            LOGGER.error("Error writing to report file "+e);
         }
         //returns the result so that it can be used for further Assertions in the test code.
         return comparisonResult;
