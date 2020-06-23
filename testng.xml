@@ -5,49 +5,49 @@
 		<parameter name="browser" value="chrome"/>
 		<parameter name="device" value="laptop"/>
 			<classes>
-				<class name="com.handresc1127.TraditionalTestsV1.TraditionalTestsV1" />
+				<class name="com.handresc1127.TraditionalTestsV1.Task1" />
 			</classes>
 	</test>
 	<test name="Firefox Laptop">
 		<parameter name="browser" value="firefox"/>
 		<parameter name="device" value="laptop"/>
 		<classes>
-			<class name="com.handresc1127.TraditionalTestsV1.TraditionalTestsV1" />
+			<class name="com.handresc1127.TraditionalTestsV1.Task1" />
 		</classes>
 	</test>
 	<test name="Edge Laptop">
 		<parameter name="browser" value="edge"/>
 		<parameter name="device" value="laptop"/>
 		<classes>
-			<class name="com.handresc1127.TraditionalTestsV1.TraditionalTestsV1" />
+			<class name="com.handresc1127.TraditionalTestsV1.Task1" />
 		</classes>
 	</test>
 	<test name="Chrome Tablet">
 		<parameter name="browser" value="chrome"/>
 		<parameter name="device" value="tablet"/>
 		<classes>
-			<class name="com.handresc1127.TraditionalTestsV1.TraditionalTestsV1" />
+			<class name="com.handresc1127.TraditionalTestsV1.Task1" />
 		</classes>
 	</test>
 	<test name="Firefox Tablet">
 		<parameter name="browser" value="firefox"/>
 		<parameter name="device" value="tablet"/>
 		<classes>
-			<class name="com.handresc1127.TraditionalTestsV1.TraditionalTestsV1" />
+			<class name="com.handresc1127.TraditionalTestsV1.Task1" />
 		</classes>
 	</test>
 	<test name="Edge Tablet">
 		<parameter name="browser" value="edge"/>
 		<parameter name="device" value="tablet"/>
 		<classes>
-			<class name="com.handresc1127.TraditionalTestsV1.TraditionalTestsV1" />
+			<class name="com.handresc1127.TraditionalTestsV1.Task1" />
 		</classes>
 	</test>
 	<test name="Mobile Portrait">
 		<parameter name="browser" value="portrait"/>
 		<parameter name="device" value="mobile"/>
 		<classes>
-			<class name="com.handresc1127.TraditionalTestsV1.TraditionalTestsV1" />
+			<class name="com.handresc1127.TraditionalTestsV1.Task1" />
 		</classes>
 	</test>
 
