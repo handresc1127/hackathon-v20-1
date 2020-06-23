@@ -7,12 +7,12 @@ import org.testng.asserts.SoftAssert;
 
 public class Task1 extends BaseTests {
 
-    @Test
-    public void dataDrivenTest() {
+    @Test(testName = "Cross-Device Elements")
+    public void task1() {
         SoftAssert softAssertions = new SoftAssert();
-        driver.get(homePage.getUrlV1());
 
-        softAssertions.assertTrue(homePage.validateFilterVisible(true));
+        homePage.navigateToV1();
+        softAssertions.assertTrue(homePage.validateFilterVisible());
 
         softAssertions.assertAll();
 

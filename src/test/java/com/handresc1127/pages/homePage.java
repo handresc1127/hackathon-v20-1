@@ -12,16 +12,19 @@ public class homePage extends BaseTests {
 
 
 
-    public static String getUrlV1() {
-        return urlV1;
+    public static void navigateToV1(){
+        driver.get(urlV1);
+    }
+    public static void navigateToV2(){
+        driver.get(urlV2);
     }
 
-    public static String getUrlV2() {
-        return urlV2;
-    }
-
-    public static boolean validateFilterVisible(boolean isVisible){
+    public static boolean validateFilterVisible(){
+        boolean isFilterVisible=true;
+        if(device.toLowerCase().equals("laptop")){
+            isFilterVisible=false;
+        }
         WebElement filter = driver.findElement(filterLabel);
-        return hackathonReporter(filterLabel.toString(),filter.isDisplayed()==isVisible);
+        return hackathonReporter(filterLabel.toString(),filter.isDisplayed()==isFilterVisible);
     }
 }
