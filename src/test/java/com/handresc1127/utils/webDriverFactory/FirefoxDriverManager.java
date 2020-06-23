@@ -21,6 +21,7 @@ public class FirefoxDriverManager extends DriverManager {
         firefoxProfile.setPreference("browser.helperApps.neverAsk.saveToDisk", "text/csv;audio/wav;audio/vnd.wave;audio/wave;audio/x-wav");
 
         options.setProfile(firefoxProfile);
+        browser="Firefox";
         driver = new FirefoxDriver(options);
     }
 

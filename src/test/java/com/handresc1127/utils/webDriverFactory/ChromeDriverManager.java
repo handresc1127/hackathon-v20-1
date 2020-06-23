@@ -23,6 +23,7 @@ public class ChromeDriverManager extends DriverManager {
                 //options.addArguments("--start-maximized");
                 break;
         }
+        browser="Chrome";
         driver = new ChromeDriver(options);
     }
 

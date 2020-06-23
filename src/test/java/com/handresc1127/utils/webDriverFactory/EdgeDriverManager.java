@@ -10,6 +10,7 @@ public class EdgeDriverManager extends DriverManager {
         EdgeOptions options = new EdgeOptions();
         //options.setCapability("useAutomationExtension", false);
         // options.addArguments("user-agent=foo;bar");
+        browser="Edge";
         driver = new EdgeDriver(options);
     }
 }
