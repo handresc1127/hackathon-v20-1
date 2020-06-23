@@ -9,6 +9,7 @@ public class homePage extends BaseTests {
     static String urlV2="https://demo.applitools.com/gridHackathonV2.html";
 
     static By filterLabel = By.id("ti-filter");
+    static By searchBar = By.id("DIV__customsear__41");
 
 
 
@@ -27,4 +28,14 @@ public class homePage extends BaseTests {
         WebElement filter = driver.findElement(filterLabel);
         return hackathonReporter(filterLabel.toString(),filter.isDisplayed()==isFilterVisible);
     }
+
+    public static boolean validateSearchBarVisible(){
+        boolean isSearchVisible=false;
+        if(device.toLowerCase().equals("laptop")){
+            isSearchVisible=true;
+        }
+        WebElement search = driver.findElement(searchBar);
+        return hackathonReporter(searchBar.toString(),search.isDisplayed()==isSearchVisible);
+    }
+
 }

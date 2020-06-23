@@ -13,6 +13,7 @@ public class Task1 extends BaseTests {
 
         homePage.navigateToV1();
         softAssertions.assertTrue(homePage.validateFilterVisible());
+        softAssertions.assertTrue(homePage.validateSearchBarVisible());
 
         softAssertions.assertAll();
 
