@@ -40,14 +40,13 @@ public class BaseTests{
         device=driverManager.getDevice();
         viewport=driverManager.getViewport();
 
-        //eyesManager = new EyesManager(driver, "TAU - Visual Testing Applitools");
-
+        eyesManager = new EyesManager(driver, PropertyLoader.getProperty("applitools.appName"));
     }
 
     @AfterClass
     public static void afterAll(){
         driverManager.quitDriver();
-        //eyesManager.abort();
+        eyesManager.abort();
     }
 
     /**
