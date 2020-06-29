@@ -4,12 +4,11 @@ package com.handresc1127.utils;
 import com.handresc1127.utils.webDriverFactory.DriverManager;
 import com.handresc1127.utils.webDriverFactory.DriverManagerFactory;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.ITestContext;
+import org.testng.annotations.*;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -18,11 +17,13 @@ public class BaseTests{
 
     protected static DriverManager driverManager;
     protected static WebDriver driver;
+    protected static WebDriverWait wait;
     protected static EyesManager eyesManager;
     private static final Logger LOGGER = LoggerFactory.getLogger(BaseTests.class);
     protected static String browser;
     protected static String viewport;
     protected static String device;
+    protected static String testName;
 
 
     @Parameters({ "browser", "device" })
@@ -34,19 +35,32 @@ public class BaseTests{
 
         driverManager = DriverManagerFactory.getManager(_browser);
         driver=driverManager.getDriver(_browser);
+        wait=new WebDriverWait(driver, 30);
         driverManager.setDeviceSize(_device);
 
         browser=driverManager.getBrowser();
         device=driverManager.getDevice();
         viewport=driverManager.getViewport();
 
+        //TODO solo modern tests
         eyesManager = new EyesManager(driver, PropertyLoader.getProperty("applitools.appName"));
+    }
+
+    @BeforeTest
+    public static void beforeTest(ITestContext thisTest){
+        testName=thisTest.getName();
     }
 
     @AfterClass
     public static void afterAll(){
         driverManager.quitDriver();
+
+        //TODO solo modern tests
         eyesManager.abort();
+    }
+
+    public static String getTestName() {
+            return testName;
     }
 
     /**
