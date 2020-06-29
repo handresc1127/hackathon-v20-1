@@ -13,12 +13,23 @@ public class ModernTestsV1 extends BaseTests {
         eyesManager.setForceFullScreen(true);
     }
 
-    @Test
+    @Test()
     public void task1()
     {
-        homePage.navigateToV2();
+        homePage.navigateToV1();
         eyesManager.validateWindows("Cross-Device Elements Test");
     }
 
+    @Test()
+    public void task2(){
+        homePage.navigateToV1();
+        homePage.filterForBlack();
+        eyesManager.validateWindows("Filter Results");
+        eyesManager.validateElement(homePage.getGridProducts(),"Product Grid");
+    }
 
+    @Test
+    public void task3(){
+
+    }
 }
