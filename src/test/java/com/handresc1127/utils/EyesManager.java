@@ -23,6 +23,7 @@ public class EyesManager {
     private Configuration eyesConfig;
     private EyesRunner runner;
     private int concurrentSessions = 10;
+    private static boolean eyesIsOpen=false;
 
     public EyesManager(WebDriver driver, String appName) {
         this.driver = driver;
@@ -56,37 +57,40 @@ public class EyesManager {
         eyes.setForceFullPageScreenshot(beForce);
     }
 
-    public void validateWindows(){
-        eyes.open(driver, appName, Thread.currentThread().getStackTrace()[2].getMethodName());
-        eyes.checkWindow();
+    public void openEyes(){
+        eyes.open(driver, appName, BaseTests.getTestName());
+        eyesIsOpen=true;
+    }
+
+    public void closeEyes(){
         eyes.close();
+        eyesIsOpen=false;
+    }
+
+    public void validateWindows(){
+        if(!eyesIsOpen) openEyes();
+        eyes.checkWindow();
     }
 
     public void validateWindows(String tagWindows){
-        final StackTraceElement[] ste = Thread.currentThread().getStackTrace();
-        eyes.open(driver, appName, Thread.currentThread().getStackTrace()[2].getMethodName());
+        if(!eyesIsOpen) openEyes();
         eyes.checkWindow(tagWindows);
-        eyes.close();
     }
 
     public void validateWindows(MatchLevel matchLevel){
-        eyes.open(driver, appName, Thread.currentThread().getStackTrace()[2].getMethodName());
-        Thread x = Thread.currentThread();
+        if(!eyesIsOpen) openEyes();
         eyes.setMatchLevel(matchLevel);
         eyes.checkWindow();
-        eyes.close();
     }
 
     public void validateElement(By locator,String tagElement){
-        eyes.open(driver, appName, Thread.currentThread().getStackTrace()[2].getMethodName());
-        eyes.checkElement(locator,tagElement);
-        eyes.close();
+        if(!eyesIsOpen) openEyes();
+        eyes.checkElement(locator,tagElement); //equal check(tag, Target.region(selector));
     }
 
     public void validateFrame(String frameNameOrId){
-        eyes.open(driver, appName, Thread.currentThread().getStackTrace()[2].getMethodName());
+        if(!eyesIsOpen) openEyes();
         eyes.checkFrame(frameNameOrId);
-        eyes.close();
     }
 
     public void abort(){
