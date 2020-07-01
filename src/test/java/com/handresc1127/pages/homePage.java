@@ -11,13 +11,21 @@ public class homePage extends BaseTests {
     static String urlV2="https://demo.applitools.com/gridHackathonV2.html";
 
     static By filterLabel = By.id("ti-filter");
-    static By searchBar = By.id("DIV__customsear__41");
     static By filterBlack = By.id("SPAN__checkmark__107");
+    static By searchBarDiv = By.id("DIV__customsear__41");
+    static By searchBarInput= By.id("INPUTtext____42");
+    static By searchBarIcon= By.id("BUTTONsubmit____43");
+    static By searchBtn = By.id("A__btnsearchm__59");
+
     static By filterBtn = By.id("filterBtn");
     static By filterPanel = By.id("filter_col");
     static By openFilter = By.id("A__openfilter__206");
     static By productsGrid = By.id("product_grid");
     static By fistProduct= By.id("product_1");
+
+    static By wishListIcon = By.id("A__wishlist__52");
+    static By accessLinkIcon = By.id("A__accesslink__56");
+    static By cartIcon = By.id("A__cartbt__49");
 
     public static void navigateToV1(){
         driver.get(urlV1);
@@ -28,7 +36,7 @@ public class homePage extends BaseTests {
 
     public static By getGridProducts(){
         return productsGrid;
-    };
+    } //Modern test locator
 
     public static void filterForBlack(){
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(filterBlack));
@@ -49,22 +57,61 @@ public class homePage extends BaseTests {
         driver.findElement(fistProduct).click();
     }
 
+    // ==============================
+    private static boolean validateDisplayed(By locator, String deviceRule, boolean isElementVisible){
+        if(!device.toLowerCase().equals(deviceRule.toLowerCase())){
+            isElementVisible=!isElementVisible;
+        }
+        WebElement element = driver.findElement(locator);
+        return hackathonReporter(locator.toString(),element.isDisplayed()==isElementVisible);
+    }
+
+    private static boolean validateDisplayed(By locator){
+        WebElement element = driver.findElement(locator);
+        return hackathonReporter(locator.toString(),element.isDisplayed()==true);
+    }
+    // ==============================
+
     public static boolean validateFilterVisible(){
-        boolean isFilterVisible=true;
-        if(device.toLowerCase().equals("laptop")){
-            isFilterVisible=false;
-        }
-        WebElement filter = driver.findElement(filterLabel);
-        return hackathonReporter(filterLabel.toString(),filter.isDisplayed()==isFilterVisible);
+        return validateDisplayed(filterLabel,"laptop",false);
     }
 
-    public static boolean validateSearchBarVisible(){
-        boolean isSearchVisible=false;
-        if(device.toLowerCase().equals("laptop")){
-            isSearchVisible=true;
-        }
-        WebElement search = driver.findElement(searchBar);
-        return hackathonReporter(searchBar.toString(),search.isDisplayed()==isSearchVisible);
+    public static boolean validateSearchBarDivVisible(){
+        return validateDisplayed(searchBarDiv,"laptop",true);
+    }
+    public static boolean validateSearchBarIconVisible(){
+        return validateDisplayed(searchBarIcon,"laptop",true);
+    }
+    public static boolean validateSearchBarInputVisible(){
+        return validateDisplayed(searchBarInput,"laptop",true);
     }
 
+    public static boolean validateSearchIconVisible() {
+        return validateDisplayed(searchBtn,"laptop",false);
+    }
+
+    public static boolean validateWishListVisible() {
+        return validateDisplayed(wishListIcon,"laptop",true);
+    }
+
+    public static boolean validateAccessLinkVisible() {
+        return validateDisplayed(accessLinkIcon);
+    }
+
+    public static boolean validateCartVisible() {
+        return validateDisplayed(cartIcon);
+    }
+
+
+
+
+    public static boolean validateSearchBarText() {
+        //TODO
+        return true;
+    }
+
+    public static boolean validateCartValue() {
+        //TODO
+        return true;
+    }
 }
