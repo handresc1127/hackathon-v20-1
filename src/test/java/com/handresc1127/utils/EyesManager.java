@@ -17,44 +17,54 @@ import org.openqa.selenium.WebDriver;
 import java.nio.charset.StandardCharsets;
 
 public class EyesManager {
-    private Eyes eyes;
-    private String appName;
-    private WebDriver driver;
-    private Configuration eyesConfig;
-    private EyesRunner runner;
-    private int concurrentSessions = 10;
+    private static Eyes eyes;
+    private static String appName;
+    private static WebDriver driver;
+    private static Configuration eyesConfig;
+    private static EyesRunner runner=null;
+    private static int concurrentSessions;
     private static boolean eyesIsOpen=false;
+    final private static String apiKeyEnv ="APPLITOOLS_API_KEY_PERSONAL"; //APPLITOOLS_API_KEY_PERSONAL
 
-    public EyesManager(WebDriver driver, String appName) {
-        this.driver = driver;
-        this.appName = appName;
-
+    public void EyesConfig(){
+        concurrentSessions = Integer.valueOf(PropertyLoader.getProperty("applitools.concurrentSessions"));
         runner = new VisualGridRunner(concurrentSessions);
+        appName=PropertyLoader.getProperty("applitools.appName");
         eyesConfig = (Configuration) new Configuration()
                 // Visual Grid configurations
-        .addBrowser(1200, 700, BrowserType.CHROME)
-        .addBrowser(1200, 700, BrowserType.FIREFOX)
-        .addBrowser(1200, 700, BrowserType.EDGE_CHROMIUM)
-        .addBrowser(768, 700, BrowserType.CHROME)
-        .addBrowser(768, 700, BrowserType.FIREFOX)
-        .addBrowser(768, 700, BrowserType.EDGE_CHROMIUM)
-        .addDeviceEmulation(DeviceName.iPhone_X, ScreenOrientation.PORTRAIT)
+                .addBrowser(1200, 700, BrowserType.CHROME)
+                .addBrowser(1200, 700, BrowserType.FIREFOX)
+                .addBrowser(1200, 700, BrowserType.EDGE_CHROMIUM)
+                .addBrowser(768, 700, BrowserType.CHROME)
+                .addBrowser(768, 700, BrowserType.FIREFOX)
+                .addBrowser(768, 700, BrowserType.EDGE_CHROMIUM)
+                .addDeviceEmulation(DeviceName.iPhone_X, ScreenOrientation.PORTRAIT)
                 //  ...other configurations
-        .setViewportSize(new RectangleSize(800, 600))
-        .setApiKey(PropertyLoader.getProperty("APPLITOOLS_API_KEY"))
-        .setAppName(appName)
+                .setViewportSize(new RectangleSize(800, 600))
+                .setApiKey(PropertyLoader.getProperty(apiKeyEnv))
+                .setAppName(appName)
         ;
 
-        eyes = new Eyes(runner);
-        eyes.setConfiguration(eyesConfig);
     }
 
-    public void setBatchName(String batchName) {
-        eyes.setBatch(new BatchInfo(batchName));
+    public EyesManager() {
+        eyesIsOpen=false;
+        if(runner==null) EyesConfig();
+        if(eyes==null) {
+            eyes = new Eyes(runner);
+            eyes.setConfiguration(eyesConfig);
+            eyes.setBatch(new BatchInfo(PropertyLoader.getProperty("applitools.batchName")));
+            eyes.setForceFullPageScreenshot(Boolean.valueOf(PropertyLoader.getProperty("applitools.forceFullScreen")));
+        }
     }
 
-    public void setForceFullScreen(boolean beForce){
-        eyes.setForceFullPageScreenshot(beForce);
+    /**
+     * Mandatory for each method.
+     * @param myDriver              WebDriver
+     */
+    public void setDriver(WebDriver myDriver){
+        driver = myDriver;
+        eyesIsOpen=false;
     }
 
     public void openEyes(){
@@ -63,8 +73,8 @@ public class EyesManager {
     }
 
     public void closeEyes(){
-        eyes.close();
         eyesIsOpen=false;
+        eyes.close();
     }
 
     public void validateWindows(){
@@ -83,6 +93,11 @@ public class EyesManager {
         eyes.checkWindow();
     }
 
+        public void validateFullWindows(String tagWindows){
+        if(!eyesIsOpen) openEyes();
+        eyes.checkWindow(tagWindows,true); //equal check(tag,Target.window().fully(true));
+        }
+
     public void validateElement(By locator,String tagElement){
         if(!eyesIsOpen) openEyes();
         eyes.checkElement(locator,tagElement); //equal check(tag, Target.region(selector));
@@ -94,8 +109,12 @@ public class EyesManager {
     }
 
     public void abort(){
-        eyes.abortIfNotClosed();
-        runner.getAllTestResults(false);
+        if (null != eyes) {
+            eyes.abortIfNotClosed();
+            runner.getAllTestResults(false);
+            eyes = null;
+            runner=null;
+        }
     }
 
     public Eyes getEyes(){
@@ -105,7 +124,7 @@ public class EyesManager {
     public boolean validatePDF(String filePath) {
         String command = String.format(
                 "java -jar resources/ImageTester.jar -k %s -f \"%s\"",
-                PropertyLoader.getProperty("APPLITOOLS_API_KEY"),
+                PropertyLoader.getProperty(apiKeyEnv),
                 filePath);
         String result="";
         try {
