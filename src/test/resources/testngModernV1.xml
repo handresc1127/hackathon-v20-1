@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Hackathon V20 - Traditional Tests test Suite">
+	<parameter name="suiteType" value="modern"/>
 	<test name="Task 1">
 			<classes>
 				<class name="com.handresc1127.ModernTestsV1">
@@ -16,6 +17,16 @@
 			<class name="com.handresc1127.ModernTestsV1">
 				<methods>
 					<include name="task2" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Task 3">
+		<classes>
+			<class name="com.handresc1127.ModernTestsV1">
+				<methods>
+					<include name="task3" />
 				</methods>
 			</class>
 		</classes>
