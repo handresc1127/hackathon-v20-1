@@ -12,6 +12,7 @@ import org.testng.annotations.*;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.lang.reflect.Method;
 
 public class BaseTests{
 
@@ -24,43 +25,83 @@ public class BaseTests{
     protected static String viewport;
     protected static String device;
     protected static String testName;
+    private static String suiteType;
 
+
+    @Parameters({"suiteType"})
+    @BeforeSuite
+    public static void beforeSuitAll(@Optional("suiteType") String suiteType_){
+        suiteType=suiteType_;
+        PropertyLoader.loadProperties();
+
+        if(suiteType.toLowerCase().equals("modern")){
+            eyesManager = new EyesManager();
+        }
+
+
+        LOGGER.info("Suited Configured...");
+        LOGGER.info("  suite type: " + suiteType);
+        LOGGER.info("  applitools.appName= "+PropertyLoader.getProperty("applitools.appName"));
+        LOGGER.info("  applitools.batchName= "+PropertyLoader.getProperty("applitools.batchName"));
+        LOGGER.info("  applitools.forceFullScreen= "+PropertyLoader.getProperty("applitools.forceFullScreen"));
+    }
 
     @Parameters({ "browser", "device" })
-    @BeforeClass
-    public static void beforeAll(@Optional("Chrome") String _browser, @Optional("Laptop") String _device){
-        PropertyLoader.loadProperties();
-        LOGGER.info("");
-        LOGGER.info("Browser:" + _browser+" Device:"+_device);
+    @BeforeTest
+    public static void beforeAll(@Optional("Chrome") String _browser, @Optional("Laptop") String _device, ITestContext thisTest){
+        browser=_browser;
+        device=_device;
+        testName=thisTest.getName();
 
-        driverManager = DriverManagerFactory.getManager(_browser);
-        driver=driverManager.getDriver(_browser);
+        LOGGER.info("Test Configured...");
+        LOGGER.info("  Browser:" + _browser+" Device:"+_device);
+        LOGGER.info("  Test Name: "+thisTest.getName());
+    }
+
+    @BeforeMethod
+    public static void beforeEach(Method method){
+        LOGGER.info("Method beginning...");
+        LOGGER.info("  Method name: " + method.getName());
+        driverManager = DriverManagerFactory.getManager(browser);
+        driver=driverManager.getDriver(browser);
+
         wait=new WebDriverWait(driver, 30);
-        driverManager.setDeviceSize(_device);
+        driverManager.setDeviceSize(device);
 
         browser=driverManager.getBrowser();
         device=driverManager.getDevice();
         viewport=driverManager.getViewport();
 
-        //TODO solo modern tests
-        eyesManager = new EyesManager(driver, PropertyLoader.getProperty("applitools.appName"));
+        if(suiteType.toLowerCase().equals("modern")){
+            eyesManager.setDriver(driver);
+        }
+
+        LOGGER.info("  Browser:" + browser+" Device:"+device+" Viewport:"+viewport);
     }
 
-    @BeforeTest
-    public static void beforeTest(ITestContext thisTest){
-        testName=thisTest.getName();
-    }
-
-    @AfterClass
-    public static void afterAll(){
+    @AfterMethod
+    public static void afterEach(){
         driverManager.quitDriver();
+        if(suiteType.toLowerCase().equals("modern")) {
+            eyesManager.closeEyes();
+        }
+    }
 
-        //TODO solo modern tests
-        eyesManager.abort();
+    @AfterSuite
+    public static void afterAll(){
+        if(suiteType.toLowerCase().equals("modern")) {
+            eyesManager.abort();
+        }
+    }
+
+    public static void setTestName(String name) {
+        testName = name;
+        LOGGER.info("  SET Test Name: "+testName);
     }
 
     public static String getTestName() {
-            return testName;
+        LOGGER.info("  GET Test Name: "+testName);
+        return testName;
     }
 
     /**
