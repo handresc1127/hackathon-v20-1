@@ -17,6 +17,7 @@ public class homePage extends BaseTests {
     static By filterPanel = By.id("filter_col");
     static By openFilter = By.id("A__openfilter__206");
     static By productsGrid = By.id("product_grid");
+    static By fistProduct= By.id("product_1");
 
     public static void navigateToV1(){
         driver.get(urlV1);
@@ -41,6 +42,11 @@ public class homePage extends BaseTests {
         if(!filterColumn.isDisplayed()){
             driver.findElement(openFilter).click();
         }
+    }
+
+    public static void fistProductDetails(){
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(fistProduct));
+        driver.findElement(fistProduct).click();
     }
 
     public static boolean validateFilterVisible(){
