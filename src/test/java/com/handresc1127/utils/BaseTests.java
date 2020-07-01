@@ -25,6 +25,7 @@ public class BaseTests{
     protected static String viewport;
     protected static String device;
     protected static String testName;
+    protected static String methodName;
     private static String suiteType;
 
 
@@ -60,8 +61,9 @@ public class BaseTests{
 
     @BeforeMethod
     public static void beforeEach(Method method){
+        methodName=method.getName();
         LOGGER.info("Method beginning...");
-        LOGGER.info("  Method name: " + method.getName());
+        LOGGER.info("  Method name: " + methodName);
         driverManager = DriverManagerFactory.getManager(browser);
         driver=driverManager.getDriver(browser);
 
@@ -123,8 +125,13 @@ public class BaseTests{
         String testName=ste[3].getMethodName();
         //TODO fix test Name from test content
         try(BufferedWriter writer = new BufferedWriter(new FileWriter("Traditional-V1-TestResults.txt", true))){
-            writer.write("Task: " + task + ", Test Name: " + testName +", DOM Locator: " + domLocator + ", Browser: " + browser
-                    + ", Viewport: " + viewport + ", Device: " + device + ", Status: " + (comparisonResult ? "Pass" : "Fail"));
+            writer.write("Task: " + methodName.replace("task","")
+                    + ", \tTest Name: " + testName
+                    + ", \tDOM Locator: " + domLocator
+                    + ", \tBrowser: " + browser +
+                    ", \tViewport: " + viewport +
+                    ", \tDevice: " + device
+                    + ", \tStatus: " + (comparisonResult ? "Pass" : "Fail"));
             writer.newLine();
         }catch(Exception e){
             LOGGER.error("Error writing to report file "+e);
