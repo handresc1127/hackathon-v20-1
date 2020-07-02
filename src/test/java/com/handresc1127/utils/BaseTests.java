@@ -135,8 +135,6 @@ public class BaseTests{
         for (int i=0;i<(maxLen-len);i++){
             text+=" ";
         }
-        int afterlent = text.length();
-        System.out.println(afterlent);
         return text;
     }
 
