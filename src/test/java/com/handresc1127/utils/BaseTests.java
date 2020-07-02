@@ -1,6 +1,5 @@
 package com.handresc1127.utils;
 
-
 import com.handresc1127.utils.webDriverFactory.DriverManager;
 import com.handresc1127.utils.webDriverFactory.DriverManagerFactory;
 import org.openqa.selenium.WebDriver;
@@ -38,7 +37,6 @@ public class BaseTests{
         if(suiteType.toLowerCase().equals("modern")){
             eyesManager = new EyesManager();
         }
-
 
         LOGGER.info("Suited Configured...");
         LOGGER.info("  suite type: " + suiteType);
@@ -96,13 +94,7 @@ public class BaseTests{
         }
     }
 
-    public static void setTestName(String name) {
-        testName = name;
-        LOGGER.info("  SET Test Name: "+testName);
-    }
-
     public static String getTestName() {
-        LOGGER.info("  GET Test Name: "+testName);
         return testName;
     }
 
@@ -123,10 +115,9 @@ public class BaseTests{
         final StackTraceElement[] ste = Thread.currentThread().getStackTrace();
         String task=ste[3].getFileName().replace(".java","");
         String testName=ste[3].getMethodName();
-        //TODO fix test Name from test content
         try(BufferedWriter writer = new BufferedWriter(new FileWriter("Traditional-V1-TestResults.txt", true))){
             writer.write("Task: " + methodName.replace("task","")
-                    + ", \tTest Name: " + testName
+                    + ", Test Name: " + testName
                     + ", \tDOM Locator: " + domLocator
                     + ", \tBrowser: " + browser +
                     ", \tViewport: " + viewport +
