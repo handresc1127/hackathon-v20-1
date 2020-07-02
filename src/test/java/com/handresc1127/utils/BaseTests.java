@@ -112,23 +112,32 @@ public class BaseTests{
      */
 
     public static boolean hackathonReporter(String domLocator, boolean comparisonResult) {
-        final StackTraceElement[] ste = Thread.currentThread().getStackTrace();
-        String task=ste[3].getFileName().replace(".java","");
-        String testName=ste[3].getMethodName();
+        String testName=Thread.currentThread().getStackTrace()[3].getMethodName();
+
         try(BufferedWriter writer = new BufferedWriter(new FileWriter("Traditional-V1-TestResults.txt", true))){
             writer.write("Task: " + methodName.replace("task","")
-                    + ", Test Name: " + testName
-                    + ", \tDOM Locator: " + domLocator
-                    + ", \tBrowser: " + browser +
-                    ", \tViewport: " + viewport +
-                    ", \tDevice: " + device
-                    + ", \tStatus: " + (comparisonResult ? "Pass" : "Fail"));
+                    + ", Test Name: " + normalize(testName+", ",32)
+                    + "DOM Locator: " + normalize(domLocator+", ",30)
+                    + "Browser: " +     normalize(browser+", ",10)
+                    + "Viewport: " +    normalize(viewport+", ",9)
+                    + "Device: " +    normalize(device+", ",9)
+                    + "Status: " +    (comparisonResult ? "Pass" : "Fail"));
             writer.newLine();
         }catch(Exception e){
             LOGGER.error("Error writing to report file "+e);
         }
         //returns the result so that it can be used for further Assertions in the test code.
         return comparisonResult;
+    }
+
+    static String normalize(String text, int maxLen){
+        int len=text.length();
+        for (int i=0;i<(maxLen-len);i++){
+            text+=" ";
+        }
+        int afterlent = text.length();
+        System.out.println(afterlent);
+        return text;
     }
 
 }
