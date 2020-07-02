@@ -1,11 +1,11 @@
-package com.handresc1127.TraditionalTestsV1;
+package com.handresc1127;
 
 import com.handresc1127.pages.homePage;
 import com.handresc1127.utils.BaseTests;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class ModernTestsV1 extends BaseTests {
+public class TraditionalTestsV1 extends BaseTests {
 
 
     @Test(testName = "Cross-Device Elements")
