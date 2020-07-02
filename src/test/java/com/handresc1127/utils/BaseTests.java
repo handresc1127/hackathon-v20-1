@@ -119,7 +119,7 @@ public class BaseTests{
                     + ", Test Name: " + normalize(testName+", ",32)
                     + "DOM Locator: " + normalize(domLocator+", ",30)
                     + "Browser: " +     normalize(browser+", ",10)
-                    + "Viewport: " +    normalize(viewport+", ",9)
+                    + "Viewport: " +    normalize(viewport+", ",10)
                     + "Device: " +    normalize(device+", ",9)
                     + "Status: " +    (comparisonResult ? "Pass" : "Fail"));
             writer.newLine();

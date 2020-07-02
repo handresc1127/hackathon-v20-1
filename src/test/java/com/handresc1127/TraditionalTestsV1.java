@@ -13,7 +13,12 @@ public class TraditionalTestsV1 extends BaseTests {
         homePage.navigateToV1();
 
         SoftAssert softAssertions = new SoftAssert();
+
+        softAssertions.assertTrue(homePage.validateMainMenuVisible());
+
         softAssertions.assertTrue(homePage.validateFilterVisible());
+        softAssertions.assertTrue(homePage.validateFilterIconVisible());
+
         softAssertions.assertTrue(homePage.validateSearchIconVisible());
         softAssertions.assertTrue(homePage.validateSearchBarDivVisible());
         softAssertions.assertTrue(homePage.validateSearchBarIconVisible());
@@ -26,8 +31,10 @@ public class TraditionalTestsV1 extends BaseTests {
         softAssertions.assertTrue(homePage.validateGridViewVisible());
         softAssertions.assertTrue(homePage.validateListViewVisible());
 
+
         softAssertions.assertTrue(homePage.validateSearchBarText());
         softAssertions.assertTrue(homePage.validateCartValue());
+
 
 //TODO
 
