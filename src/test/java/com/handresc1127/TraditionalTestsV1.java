@@ -5,7 +5,7 @@ import com.handresc1127.utils.BaseTests;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class Task1 extends BaseTests {
+public class ModernTestsV1 extends BaseTests {
 
 
     @Test(testName = "Cross-Device Elements")
@@ -22,6 +22,9 @@ public class Task1 extends BaseTests {
         softAssertions.assertTrue(homePage.validateAccessLinkVisible());
         softAssertions.assertTrue(homePage.validateWishListVisible());
         softAssertions.assertTrue(homePage.validateCartVisible());
+
+        softAssertions.assertTrue(homePage.validateGridViewVisible());
+        softAssertions.assertTrue(homePage.validateListViewVisible());
 
         softAssertions.assertTrue(homePage.validateSearchBarText());
         softAssertions.assertTrue(homePage.validateCartValue());
