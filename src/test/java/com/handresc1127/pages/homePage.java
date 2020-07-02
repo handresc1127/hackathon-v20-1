@@ -26,6 +26,8 @@ public class homePage extends BaseTests {
     static By wishListIcon = By.id("A__wishlist__52");
     static By accessLinkIcon = By.id("A__accesslink__56");
     static By cartIcon = By.id("A__cartbt__49");
+    static By gridViewBtn = By.id("I__tiviewgrid__202");
+    static By listViewBtn = By.id("I__tiviewlist__204");
 
     public static void navigateToV1(){
         driver.get(urlV1);
@@ -102,7 +104,12 @@ public class homePage extends BaseTests {
         return validateDisplayed(cartIcon);
     }
 
-
+    public static boolean validateGridViewVisible(){
+        return validateDisplayed(gridViewBtn, "laptop", true);
+    }
+    public static boolean validateListViewVisible(){
+        return validateDisplayed(gridViewBtn, "laptop", true);
+    }
 
 
     public static boolean validateSearchBarText() {
