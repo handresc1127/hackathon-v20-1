@@ -105,6 +105,7 @@ public class TraditionalTestsV1 extends BaseTests {
         softAssertions.assertTrue(detailsPage.validatePriceText());
         softAssertions.assertTrue(detailsPage.validateOldPriceText());
         softAssertions.assertTrue(detailsPage.validateImageContent());
+        softAssertions.assertTrue(detailsPage.validateSKUStyle());
 
         softAssertions.assertAll();
     }

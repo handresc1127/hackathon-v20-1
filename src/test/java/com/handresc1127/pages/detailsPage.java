@@ -84,6 +84,11 @@ public class detailsPage extends BaseTests {
         return hackathonReporter(oldPrice.toString(),currentValue.contains("line-through"));
     }
 
+    public static boolean validateSKUStyle(){
+        String currentValue=driver.findElement(sku).getCssValue("color");
+        return hackathonReporter(sku.toString(),currentValue.contains("rgba(68, 68, 68, 1)"));
+    }
+
     public static boolean validatePriceText(){
         return validateText(price,"$33.00");
     }
