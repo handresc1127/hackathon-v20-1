@@ -117,15 +117,19 @@ public class BaseTests{
         StackTraceElement[] stack= Thread.currentThread().getStackTrace();
         String last="";
         String testName="";
+        String lastClassName="";
         for (StackTraceElement trace:stack){
             String className=trace.getClassName();
             if(className.contains("com.handresc1127")){
+                lastClassName=className;
                 testName=last;
                 last=trace.getMethodName();
             }
         }
 
-        try(BufferedWriter writer = new BufferedWriter(new FileWriter("Traditional-V1-TestResults.txt", true))){
+        String fileName=lastClassName.replace("com.handresc1127.","").replace("Tests","-")+"-TestResults.txt";
+
+        try(BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))){
             writer.write("Task: " + methodName.replace("task","")
                     + ", Test Name: " + normalize(testName+", ",32)
                     + "DOM Locator: " + normalize(domLocator+", ",64)
