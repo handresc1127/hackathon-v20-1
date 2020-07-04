@@ -12,6 +12,7 @@ import org.testng.annotations.*;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.lang.reflect.Method;
+import java.util.List;
 
 public class BaseTests{
 
@@ -112,15 +113,25 @@ public class BaseTests{
      */
 
     public static boolean hackathonReporter(String domLocator, boolean comparisonResult) {
-        String testName=Thread.currentThread().getStackTrace()[3].getMethodName();
+        //String testName=Thread.currentThread().getStackTrace()[3].getMethodName();
+        StackTraceElement[] stack= Thread.currentThread().getStackTrace();
+        String last="";
+        String testName="";
+        for (StackTraceElement trace:stack){
+            String className=trace.getClassName();
+            if(className.contains("com.handresc1127")){
+                testName=last;
+                last=trace.getMethodName();
+            }
+        }
 
         try(BufferedWriter writer = new BufferedWriter(new FileWriter("Traditional-V1-TestResults.txt", true))){
             writer.write("Task: " + methodName.replace("task","")
                     + ", Test Name: " + normalize(testName+", ",32)
-                    + "DOM Locator: " + normalize(domLocator+", ",30)
-                    + "Browser: " +     normalize(browser+", ",10)
+                    + "DOM Locator: " + normalize(domLocator+", ",64)
+                    + "Browser: " +     normalize(browser+", ",9)
                     + "Viewport: " +    normalize(viewport+", ",10)
-                    + "Device: " +    normalize(device+", ",9)
+                    + "Device: " +    normalize(device+", ",8)
                     + "Status: " +    (comparisonResult ? "Pass" : "Fail"));
             writer.newLine();
         }catch(Exception e){
