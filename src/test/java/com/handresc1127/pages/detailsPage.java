@@ -86,7 +86,7 @@ public class detailsPage extends BaseTests {
 
     public static boolean validateSKUStyle(){
         String currentValue=driver.findElement(sku).getCssValue("color");
-        return hackathonReporter(sku.toString(),currentValue.contains("rgba(68, 68, 68, 1)"));
+        return hackathonReporter(sku.toString(),currentValue.contains("(68, 68, 68"));
     }
 
     public static boolean validatePriceText(){
