@@ -43,7 +43,7 @@ public abstract class DriverManager {
         int x, y;
         switch (device_.toLowerCase()){
             case "laptop": x=1200; y=700; device_="Laptop"; break;
-            case "tablet": x=768; y=700; device_="Tablet"; break;
+            case "tablet": x=800; y=700; device_="Tablet"; break;
             case "mobile": x=500; y=700; device_="Mobile"; break;
             default: x=(int) screenSize.getWidth(); y=(int) screenSize.getHeight(); break;
         }
