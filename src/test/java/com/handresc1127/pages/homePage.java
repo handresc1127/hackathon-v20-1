@@ -34,8 +34,8 @@ public class homePage extends BaseTests {
     static By cartIcon = By.id("A__cartbt__49");
     static By cartValue = By.id("STRONG____50");
 
-    static By gridViewBtn = By.id("I__tiviewgrid__202");
-    static By listViewBtn = By.id("I__tiviewlist__204");
+    static By gridViewBtn = By.className("ti-view-grid");
+    static By listViewBtn = By.className("ti-view-list");
 
     static By productOnGrid = By.cssSelector("#product_grid .grid_item");
     static By productHeart = By.cssSelector(".ti-heart");
