@@ -19,7 +19,6 @@ public class homePage extends BaseTests {
     static By filterBtn = By.id("filterBtn");
     static By filterPanel = By.id("filter_col");
     static By filterIcon = By.id("ti-filter");
-    static By openFilter = By.id("A__openfilter__206");
 
     static By searchBarDiv = By.id("DIV__customsear__41");
     static By searchBarInput= By.id("INPUTtext____42");
@@ -63,7 +62,7 @@ public class homePage extends BaseTests {
     public static void openFilterIfIsNotDisplayed(){
         WebElement filterColumn= driver.findElement(filterPanel);
         if(!filterColumn.isDisplayed()){
-            driver.findElement(openFilter).click();
+            driver.findElement(filterIcon).click();
         }
     }
 
@@ -155,17 +154,17 @@ public class homePage extends BaseTests {
     }
 
     public static boolean validateSearchBarDivVisible(){
-        return validateDisplayed(searchBarDiv,"laptop",true);
+        return validateDisplayed(searchBarDiv,"mobile",false);
     }
     public static boolean validateSearchBarIconVisible(){
-        return validateDisplayed(searchBarIcon,"laptop",true);
+        return validateDisplayed(searchBarIcon,"mobile",false);
     }
     public static boolean validateSearchBarInputVisible(){
-        return validateDisplayed(searchBarInput,"laptop",true);
+        return validateDisplayed(searchBarInput,"mobile",false);
     }
 
     public static boolean validateSearchIconVisible() {
-        return validateDisplayed(searchBtn,"laptop",false);
+        return validateDisplayed(searchBtn,"mobile",true);
     }
 
     public static boolean validateWishListVisible() {
@@ -181,7 +180,7 @@ public class homePage extends BaseTests {
     }
 
     public static boolean validateCartValueVisible() {
-        return validateDisplayed(cartValue, "laptop", true);
+        return validateDisplayed(cartValue, "mobile", false);
     }
 
     public static boolean validateGridViewVisible(){
@@ -204,7 +203,7 @@ public class homePage extends BaseTests {
     }
 
     public static boolean validateCartValue() {
-        return validateText(cartValue,"laptop","2","");
+        return validateText(cartValue,"mobile","","2");
     }
 
     public static boolean validateCountElement(int sizeExpected){
