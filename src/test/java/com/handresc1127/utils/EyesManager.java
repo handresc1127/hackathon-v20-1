@@ -134,7 +134,6 @@ public class EyesManager {
         }catch (Exception ex){
             return false;
         }
-        System.out.println(result);
         if (result != null){
             return result.contains("Passed");
         }
