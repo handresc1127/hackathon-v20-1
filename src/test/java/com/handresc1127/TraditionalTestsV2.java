@@ -125,6 +125,8 @@ public class TraditionalTestsV2 extends BaseTests {
         softAssertions.assertTrue(detailsPage.validateImageContent());
         softAssertions.assertTrue(detailsPage.validateSKUStyle());
 
+        softAssertions.assertTrue(detailsPage.validateAddToCartMargin());
+
         softAssertions.assertAll();
     }
 }
