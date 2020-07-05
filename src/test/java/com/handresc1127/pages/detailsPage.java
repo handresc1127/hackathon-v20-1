@@ -12,6 +12,7 @@ public class detailsPage extends HackathonReports {
     static By currentSize = By.className("current");
     static By quantity = By.id("quantity_1");
     static By btnAddToCart = By.id("A__btn__114");
+    static By divAddToCart = By.id("DIV__btnaddtoca__113");
     static By price = By.id("new_price");
     static By oldPrice = By.id("old_price");
     static By discount= By.id("discount");
@@ -39,6 +40,12 @@ public class detailsPage extends HackathonReports {
     public static boolean validateAddToCartVisible(){
         return validateDisplayed(btnAddToCart);
     }
+
+    public static boolean validateAddToCartMargin(){
+        String currentValue=driver.findElement(divAddToCart).getCssValue("margin-top");
+        return hackathonReporter(divAddToCart.toString(),currentValue.equals("0px"));
+    }
+
     public static boolean validatePriceVisible(){
         return validateDisplayed(price);
     }
