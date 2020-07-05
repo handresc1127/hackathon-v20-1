@@ -108,8 +108,8 @@ Page Object pattern was used for the test implementation which
 
 ## Author ✒️
 
-* **Henry Andrés Correa Correa** - [Linkedin](https://www.linkedin.com/in/henryandrescorrea/) -  [h.andresc1127@gmai.com](mailto:h.andresc1127@gmai.com)
-![author](src\test\resources\author.png "Henry Andres Correa Correa")
+* **Henry Andrés Correa Correa** - [Linkedin](https://www.linkedin.com/in/henryandrescorrea/) -  [h.andresc1127@gmai.com](mailto:h.andresc1127@gmai.com) \
+![author](src/test/resources/author.png "Henry Andres Correa Correa")
 
 ### Hackathon2019
-![GoldWinner](src\test\resources\goldWinner.jpg "Hackathon 2019")
+![GoldWinner](src/test/resources/goldWinner.jpg "Hackathon 2019")
