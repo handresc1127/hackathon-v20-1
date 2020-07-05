@@ -14,7 +14,7 @@ public abstract class DriverManager {
     protected OS osName = null;
     public enum OS {
         WINDOWS, LINUX, MAC
-    };// Operating systems.
+    }// Operating systems.
 
     public void quitDriver() {
         if (null != driver) {

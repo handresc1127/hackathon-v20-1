@@ -13,17 +13,14 @@ public class ChromeDriverManager extends DriverManager {
     public void createDriver(String type) {
         setDriverFile("chrome");
         ChromeOptions options = new ChromeOptions();
-        switch (type.toUpperCase()) {
-            case "PORTRAIT":
-                HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
-                chromePrefs.put("deviceName", "iPhone X");
-                options.setExperimentalOption("mobileEmulation", chromePrefs);
-                break;
-            default:
-                //options.addArguments("--whitelisted-ips='"+ PropertyLoader.getProperty("chrome.whitelistedIps") +"'");
-                //options.addArguments("--start-maximized");
-                break;
+        if ("PORTRAIT".equals(type.toUpperCase())) {
+            HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+            chromePrefs.put("deviceName", "iPhone X");
+            options.setExperimentalOption("mobileEmulation", chromePrefs);
         }
+        //else arguments
+        //options.addArguments("--whitelisted-ips='"+ PropertyLoader.getProperty("chrome.whitelistedIps") +"'");
+        //options.addArguments("--start-maximized");
         browser="Chrome";
         driver = new ChromeDriver(options);
     }

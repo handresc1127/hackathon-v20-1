@@ -22,12 +22,11 @@ public class EyesManager {
     private static WebDriver driver;
     private static Configuration eyesConfig;
     private static EyesRunner runner=null;
-    private static int concurrentSessions;
     private static boolean eyesIsOpen=false;
     final private static String apiKeyEnv ="APPLITOOLS_API_KEY_PERSONAL"; //APPLITOOLS_API_KEY_PERSONAL
 
     public void EyesConfig(){
-        concurrentSessions = Integer.valueOf(PropertyLoader.getProperty("applitools.concurrentSessions"));
+        int concurrentSessions = Integer.valueOf(PropertyLoader.getProperty("applitools.concurrentSessions"));
         runner = new VisualGridRunner(concurrentSessions);
         appName=PropertyLoader.getProperty("applitools.appName");
         eyesConfig = (Configuration) new Configuration()

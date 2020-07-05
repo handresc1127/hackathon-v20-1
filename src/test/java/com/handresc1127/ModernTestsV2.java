@@ -30,5 +30,5 @@ public class ModernTestsV2 extends BaseTests {
         homePage.fistProductDetails();
         eyesManager.validateFullWindows("Product Details test"); //Only task3 says "Take a full-page screenshot"
     }
-    
+
 }
