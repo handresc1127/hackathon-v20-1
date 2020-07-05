@@ -1,6 +1,5 @@
 package com.handresc1127.pages;
 
-import com.handresc1127.utils.BaseTests;
 import com.handresc1127.utils.HackathonReports;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -13,7 +12,6 @@ public class homePage extends HackathonReports {
     static String urlV1="https://demo.applitools.com/gridHackathonV1.html";
     static String urlV2="https://demo.applitools.com/gridHackathonV2.html";
 
-    static By filterLabel = By.id("SPAN____208");
     static By filterBlack = By.id("SPAN__checkmark__107");
     static By filterBtn = By.id("filterBtn");
     static By filterPanel = By.id("filter_col");
@@ -62,7 +60,6 @@ public class homePage extends HackathonReports {
     }
 
     // ==============================
-
     public static boolean validateParentVisible(By locatorPattern, By locatorChild, String deviceRule){
         List<WebElement> products= driver.findElements(locatorPattern);
         boolean returnValue=true;
@@ -74,18 +71,7 @@ public class homePage extends HackathonReports {
         }
         return returnValue;
     }
-
     // ==============================
-
-    public static boolean validateFilterLabelVisible(){
-        System.out.println(device+" displayed "+driver.findElement(filterLabel).isDisplayed());
-        System.out.println(device+" enabled "+driver.findElement(filterLabel).isEnabled());
-        System.out.println(device+" selected "+driver.findElement(filterLabel).isSelected());
-        System.out.println(device+" location "+driver.findElement(filterLabel).getLocation());
-        System.out.println(device+" display "+driver.findElement(filterLabel).getAttribute("display"));
-        return validateDisplayed(filterLabel,"tablet",true);
-    }
-
     public static boolean validateGridViewVisible(){
         return validateDisplayed(gridViewBtn, "laptop", true);
     }
@@ -110,7 +96,5 @@ public class homePage extends HackathonReports {
     public static boolean validateProductShoppingVisible(){
         return validateParentVisible(productOnGrid,productShopping,"laptop");
     }
-
-
 
 }
