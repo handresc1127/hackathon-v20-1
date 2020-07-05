@@ -65,7 +65,7 @@ public class homePage extends HackathonReports {
         boolean returnValue=true;
         for (WebElement product:products) {
             WebElement heart= product.findElement(locatorChild);
-            if(!validateDisplayed(heart, deviceRule, false)){
+            if(validateDisplayed(heart, deviceRule, false)){
                 returnValue= false;
             }
         }

@@ -86,7 +86,7 @@ public class HackathonReports extends BaseTests{
             }
             hasLocator=true;
         }
-        return hackathonReporter(locator.toString(),element.isDisplayed()==isElementVisible);
+        return !hackathonReporter(locator.toString(), element.isDisplayed() == isElementVisible);
     }
 
     protected static boolean validateAttribute(By locator,String attribute, String expectedValue){
@@ -120,7 +120,7 @@ public class HackathonReports extends BaseTests{
         boolean returnValue=true;
         for (WebElement product:products) {
             WebElement heart= product.findElement(locatorChild);
-            if(!validateDisplayed(heart, deviceRule, false)){
+            if(validateDisplayed(heart, deviceRule, false)){
                 returnValue= false;
             }
         }
