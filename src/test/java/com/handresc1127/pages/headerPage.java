@@ -105,7 +105,6 @@ public class headerPage extends HackathonReports {
             }
             if(!hackathonReporter(locator,currentValue.equals(margin))){
                 returnValue= false;
-                System.out.println("Fallo margin: "+currentValue);
             }
         }
         return returnValue;
