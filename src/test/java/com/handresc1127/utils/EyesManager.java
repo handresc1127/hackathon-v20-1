@@ -23,7 +23,7 @@ public class EyesManager {
     private static Configuration eyesConfig;
     private static EyesRunner runner=null;
     private static boolean eyesIsOpen=false;
-    final private static String apiKeyEnv ="APPLITOOLS_API_KEY_PERSONAL"; //APPLITOOLS_API_KEY_PERSONAL
+    final private static String apiKeyEnv ="APPLITOOLS_API_KEY"; //APPLITOOLS_API_KEY_PERSONAL
 
     public void EyesConfig(){
         int concurrentSessions = Integer.parseInt(PropertyLoader.getProperty("applitools.concurrentSessions"));
