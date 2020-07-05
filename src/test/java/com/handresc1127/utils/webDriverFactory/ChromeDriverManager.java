@@ -13,7 +13,7 @@ public class ChromeDriverManager extends DriverManager {
         setDriverFile("chrome");
         ChromeOptions options = new ChromeOptions();
         if ("PORTRAIT".equals(type.toUpperCase())) {
-            HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
+            HashMap<String, Object> chromePrefs = new HashMap<>();
             chromePrefs.put("deviceName", "iPhone X");
             options.setExperimentalOption("mobileEmulation", chromePrefs);
         }

@@ -5,17 +5,17 @@ import org.openqa.selenium.By;
 
 public class detailsPage extends HackathonReports {
 
-    static By shoesName= By.id("shoe_name");
-    static By shoeImage= By.id("shoe_img");
-    static By ranking = By.id("SPAN__rating__76");
-    static By sku = By.id("SMALL____84");
-    static By currentSize = By.className("current");
-    static By quantity = By.id("quantity_1");
-    static By btnAddToCart = By.id("A__btn__114");
-    static By divAddToCart = By.id("DIV__btnaddtoca__113");
-    static By price = By.id("new_price");
-    static By oldPrice = By.id("old_price");
-    static By discount= By.id("discount");
+    static final By shoesName= By.id("shoe_name");
+    static final By shoeImage= By.id("shoe_img");
+    static final By ranking = By.id("SPAN__rating__76");
+    static final By sku = By.id("SMALL____84");
+    static final By currentSize = By.className("current");
+    static final By quantity = By.id("quantity_1");
+    static final By btnAddToCart = By.id("A__btn__114");
+    static final By divAddToCart = By.id("DIV__btnaddtoca__113");
+    static final By price = By.id("new_price");
+    static final By oldPrice = By.id("old_price");
+    static final By discount= By.id("discount");
 
     public static boolean validateShoesNameVisible(){
         return validateDisplayed(shoesName);

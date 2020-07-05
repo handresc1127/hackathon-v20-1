@@ -9,24 +9,24 @@ import java.util.List;
 
 public class homePage extends HackathonReports {
 
-    static String urlV1="https://demo.applitools.com/gridHackathonV1.html";
-    static String urlV2="https://demo.applitools.com/gridHackathonV2.html";
+    static final String urlV1="https://demo.applitools.com/gridHackathonV1.html";
+    static final String urlV2="https://demo.applitools.com/gridHackathonV2.html";
 
-    static By filterBlack = By.id("SPAN__checkmark__107");
-    static By filterBtn = By.id("filterBtn");
-    static By filterPanel = By.id("filter_col");
-    static By filterIcon = By.id("ti-filter");
+    static final By filterBlack = By.id("SPAN__checkmark__107");
+    static final By filterBtn = By.id("filterBtn");
+    static final By filterPanel = By.id("filter_col");
+    static final By filterIcon = By.id("ti-filter");
 
-    static By productsGrid = By.id("product_grid");
-    static By fistProduct= By.id("product_1");
+    static final By productsGrid = By.id("product_grid");
+    static final By fistProduct= By.id("product_1");
 
-    static By gridViewBtn = By.className("ti-view-grid");
-    static By listViewBtn = By.className("ti-view-list");
+    static final By gridViewBtn = By.className("ti-view-grid");
+    static final By listViewBtn = By.className("ti-view-list");
 
-    static By productOnGrid = By.cssSelector("#product_grid .grid_item");
-    static By productHeart = By.cssSelector(".ti-heart");
-    static By productShuffle = By.cssSelector(".ti-control-shuffle");
-    static By productShopping = By.cssSelector(".ti-shopping-cart");
+    static final By productOnGrid = By.cssSelector("#product_grid .grid_item");
+    static final By productHeart = By.cssSelector(".ti-heart");
+    static final By productShuffle = By.cssSelector(".ti-control-shuffle");
+    static final By productShopping = By.cssSelector(".ti-shopping-cart");
 
 
     public static void navigateToV1(){

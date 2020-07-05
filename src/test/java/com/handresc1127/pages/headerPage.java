@@ -7,19 +7,19 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class headerPage extends HackathonReports {
-    static By mainMenu = By.id("DIV__mainmenu__15");
-    static By searchBarDiv = By.id("DIV__customsear__41");
-    static By searchBarInput= By.id("INPUTtext____42");
-    static By searchBarIcon= By.id("BUTTONsubmit____43");
-    static By searchBtn = By.id("A__btnsearchm__59");
+    static final By mainMenu = By.id("DIV__mainmenu__15");
+    static final By searchBarDiv = By.id("DIV__customsear__41");
+    static final By searchBarInput= By.id("INPUTtext____42");
+    static final By searchBarIcon= By.id("BUTTONsubmit____43");
+    static final By searchBtn = By.id("A__btnsearchm__59");
 
-    static By wishListIcon = By.id("A__wishlist__52");
-    static By accessLinkIcon = By.id("A__accesslink__56");
-    static By cartIcon = By.id("A__cartbt__49");
-    static By cartValue = By.id("STRONG____50");
+    static final By wishListIcon = By.id("A__wishlist__52");
+    static final By accessLinkIcon = By.id("A__accesslink__56");
+    static final By cartIcon = By.id("A__cartbt__49");
+    static final By cartValue = By.id("STRONG____50");
 
-    static By tools= By.id("UL__toptools__46");
-    static By toolsButton= By.tagName("li");
+    static final By tools= By.id("UL__toptools__46");
+    static final By toolsButton= By.tagName("li");
 
 
     public static boolean validateMainMenuVisible(){
