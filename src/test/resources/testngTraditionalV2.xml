@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Hackathon V20 - Traditional Tests test Suite">
+<suite name="Hackathon V20 - Traditional Tests test Suite V1">
 	<parameter name="suiteType" value="traditional"/>
 	<test name="Chrome Laptop">
 		<parameter name="browser" value="chrome"/>
