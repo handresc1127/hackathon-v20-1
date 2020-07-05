@@ -1,5 +1,6 @@
 package com.handresc1127;
 
+import com.handresc1127.pages.headerPage;
 import com.handresc1127.pages.homePage;
 import com.handresc1127.pages.detailsPage;
 import com.handresc1127.utils.BaseTests;
@@ -15,19 +16,20 @@ public class TraditionalTestsV1 extends BaseTests {
 
         SoftAssert softAssertions = new SoftAssert();
 
-        softAssertions.assertTrue(homePage.validateMainMenuVisible());
+        softAssertions.assertTrue(headerPage.validateMainMenuVisible());
 
-        softAssertions.assertTrue(homePage.validateSearchIconVisible());
-        softAssertions.assertTrue(homePage.validateSearchBarDivVisible());
-        softAssertions.assertTrue(homePage.validateSearchBarIconVisible());
-        softAssertions.assertTrue(homePage.validateSearchBarInputVisible());
-        softAssertions.assertTrue(homePage.validateSearchBarText());
+        softAssertions.assertTrue(headerPage.validateSearchIconVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarDivVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarIconVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarInputVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarText());
 
-        softAssertions.assertTrue(homePage.validateAccessLinkVisible());
-        softAssertions.assertTrue(homePage.validateWishListVisible());
-        softAssertions.assertTrue(homePage.validateCartVisible());
-        softAssertions.assertTrue(homePage.validateCartValueVisible());
-        softAssertions.assertTrue(homePage.validateCartValue());
+        softAssertions.assertTrue(headerPage.validateAccessLinkVisible());
+        softAssertions.assertTrue(headerPage.validateWishListVisible());
+        softAssertions.assertTrue(headerPage.validateCartVisible());
+        softAssertions.assertTrue(headerPage.validateCartValueVisible());
+        softAssertions.assertTrue(headerPage.validateCartValue());
+        softAssertions.assertTrue(headerPage.validateToolsMargin());
 
         softAssertions.assertTrue(homePage.validateFilterIconVisible());
         softAssertions.assertTrue(homePage.validateGridViewVisible());
@@ -51,19 +53,20 @@ public class TraditionalTestsV1 extends BaseTests {
 
         SoftAssert softAssertions = new SoftAssert();
 
-        softAssertions.assertTrue(homePage.validateMainMenuVisible());
+        softAssertions.assertTrue(headerPage.validateMainMenuVisible());
 
-        softAssertions.assertTrue(homePage.validateSearchIconVisible());
-        softAssertions.assertTrue(homePage.validateSearchBarDivVisible());
-        softAssertions.assertTrue(homePage.validateSearchBarIconVisible());
-        softAssertions.assertTrue(homePage.validateSearchBarInputVisible());
-        softAssertions.assertTrue(homePage.validateSearchBarText());
+        softAssertions.assertTrue(headerPage.validateSearchIconVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarDivVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarIconVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarInputVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarText());
 
-        softAssertions.assertTrue(homePage.validateAccessLinkVisible());
-        softAssertions.assertTrue(homePage.validateWishListVisible());
-        softAssertions.assertTrue(homePage.validateCartVisible());
-        softAssertions.assertTrue(homePage.validateCartValueVisible());
-        softAssertions.assertTrue(homePage.validateCartValue());
+        softAssertions.assertTrue(headerPage.validateAccessLinkVisible());
+        softAssertions.assertTrue(headerPage.validateWishListVisible());
+        softAssertions.assertTrue(headerPage.validateCartVisible());
+        softAssertions.assertTrue(headerPage.validateCartValueVisible());
+        softAssertions.assertTrue(headerPage.validateCartValue());
+        softAssertions.assertTrue(headerPage.validateToolsMargin());
 
         softAssertions.assertTrue(homePage.validateFilterIconVisible());
         softAssertions.assertTrue(homePage.validateGridViewVisible());
@@ -87,6 +90,21 @@ public class TraditionalTestsV1 extends BaseTests {
 
 
         SoftAssert softAssertions = new SoftAssert();
+
+        softAssertions.assertTrue(headerPage.validateMainMenuVisible());
+
+        softAssertions.assertTrue(headerPage.validateSearchIconVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarDivVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarIconVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarInputVisible());
+        softAssertions.assertTrue(headerPage.validateSearchBarText());
+
+        softAssertions.assertTrue(headerPage.validateAccessLinkVisible());
+        softAssertions.assertTrue(headerPage.validateWishListVisible());
+        softAssertions.assertTrue(headerPage.validateCartVisible());
+        softAssertions.assertTrue(headerPage.validateCartValueVisible());
+        softAssertions.assertTrue(headerPage.validateCartValue());
+        softAssertions.assertTrue(headerPage.validateToolsMargin());
 
         softAssertions.assertTrue(detailsPage.validateShoesNameVisible());
         softAssertions.assertTrue(detailsPage.validateImageShoeVisible());
