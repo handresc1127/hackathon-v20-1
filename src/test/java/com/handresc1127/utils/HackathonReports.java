@@ -32,11 +32,11 @@ public class HackathonReports extends BaseTests{
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))){
             writer.write("Task: " + methodName.replace("task","")
                     + ", Test Name: " + testName    //normalize(testName+", ",32)
-                    + "DOM Locator: " + domLocator  //normalize(domLocator+", ",64)
-                    + "Browser: " +    browser      //  normalize(browser+", ",9)
-                    + "Viewport: " +   viewport     // normalize(viewport+", ",10)
-                    + "Device: " +     device       //normalize(device+", ",8)
-                    + "Status: " +    (comparisonResult ? "Pass" : "Fail"));
+                    + ", DOM Locator: " + domLocator  //normalize(domLocator+", ",64)
+                    + ", Browser: " +    browser      //  normalize(browser+", ",9)
+                    + ", Viewport: " +   viewport     // normalize(viewport+", ",10)
+                    + ", Device: " +     device       //normalize(device+", ",8)
+                    + ", Status: " +    (comparisonResult ? "Pass" : "Fail"));
             writer.newLine();
         }catch(Exception e){
             LOGGER.error("Error writing to report file "+e);
