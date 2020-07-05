@@ -26,7 +26,7 @@ public class EyesManager {
     final private static String apiKeyEnv ="APPLITOOLS_API_KEY_PERSONAL"; //APPLITOOLS_API_KEY_PERSONAL
 
     public void EyesConfig(){
-        int concurrentSessions = Integer.valueOf(PropertyLoader.getProperty("applitools.concurrentSessions"));
+        int concurrentSessions = Integer.parseInt(PropertyLoader.getProperty("applitools.concurrentSessions"));
         runner = new VisualGridRunner(concurrentSessions);
         appName=PropertyLoader.getProperty("applitools.appName");
         eyesConfig = (Configuration) new Configuration()
@@ -53,7 +53,7 @@ public class EyesManager {
             eyes = new Eyes(runner);
             eyes.setConfiguration(eyesConfig);
             eyes.setBatch(new BatchInfo(PropertyLoader.getProperty("applitools.batchName")));
-            eyes.setForceFullPageScreenshot(Boolean.valueOf(PropertyLoader.getProperty("applitools.forceFullScreen")));
+            eyes.setForceFullPageScreenshot(Boolean.parseBoolean(PropertyLoader.getProperty("applitools.forceFullScreen")));
         }
     }
 
@@ -125,7 +125,7 @@ public class EyesManager {
                 "java -jar resources/ImageTester.jar -k %s -f \"%s\"",
                 PropertyLoader.getProperty(apiKeyEnv),
                 filePath);
-        String result="";
+        String result;
         try {
             Process process = Runtime.getRuntime().exec(command);
             process.waitFor();

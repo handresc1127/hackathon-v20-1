@@ -1,6 +1,5 @@
 package com.handresc1127.utils.webDriverFactory;
 
-import com.handresc1127.utils.PropertyLoader;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 

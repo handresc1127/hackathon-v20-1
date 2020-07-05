@@ -46,9 +46,11 @@ public class HackathonReports extends BaseTests{
 
     static String normalize(String text, int maxLen){
         int len=text.length();
-        for (int i=0;i<(maxLen-len);i++){
-            text+=" ";
+        StringBuilder textBuilder = new StringBuilder(text);
+        for (int i = 0; i<(maxLen-len); i++){
+            textBuilder.append(" ");
         }
+        text = textBuilder.toString();
         return text;
     }
 
