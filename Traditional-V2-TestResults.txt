@@ -1,0 +1,742 @@
+Task: 1, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 1, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 2, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateShoesNameVisible, DOM Locator: By.id: shoe_name, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateImageShoeVisible, DOM Locator: By.id: shoe_img, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateRankingVisible, DOM Locator: By.id: SPAN__rating__76, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSkuVisible, DOM Locator: By.id: SMALL____84, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCurrentSizeVisible, DOM Locator: By.className: current, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateQuantityVisible, DOM Locator: By.id: quantity_1, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateAddToCartVisible, DOM Locator: By.id: A__btn__114, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validatePriceVisible, DOM Locator: By.id: new_price, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateOldPriceVisible, DOM Locator: By.id: old_price, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateDiscountVisible, DOM Locator: By.id: discount, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSizeText, DOM Locator: By.className: current, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateOldPriceStyle, DOM Locator: By.id: old_price, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validatePriceText, DOM Locator: By.id: new_price, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateOldPriceText, DOM Locator: By.id: old_price, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateImageContent, DOM Locator: By.id: shoe_img, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSKUStyle, DOM Locator: By.id: SMALL____84, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateAddToCartMargin, DOM Locator: By.id: DIV__btnaddtoca__113, Browser: Chrome, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 1, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 2, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateShoesNameVisible, DOM Locator: By.id: shoe_name, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateImageShoeVisible, DOM Locator: By.id: shoe_img, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateRankingVisible, DOM Locator: By.id: SPAN__rating__76, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSkuVisible, DOM Locator: By.id: SMALL____84, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCurrentSizeVisible, DOM Locator: By.className: current, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateQuantityVisible, DOM Locator: By.id: quantity_1, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateAddToCartVisible, DOM Locator: By.id: A__btn__114, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validatePriceVisible, DOM Locator: By.id: new_price, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateOldPriceVisible, DOM Locator: By.id: old_price, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateDiscountVisible, DOM Locator: By.id: discount, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSizeText, DOM Locator: By.className: current, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateOldPriceStyle, DOM Locator: By.id: old_price, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validatePriceText, DOM Locator: By.id: new_price, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateOldPriceText, DOM Locator: By.id: old_price, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateImageContent, DOM Locator: By.id: shoe_img, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateSKUStyle, DOM Locator: By.id: SMALL____84, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateAddToCartMargin, DOM Locator: By.id: DIV__btnaddtoca__113, Browser: Firefox, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 1, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 2, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateShoesNameVisible, DOM Locator: By.id: shoe_name, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateImageShoeVisible, DOM Locator: By.id: shoe_img, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateRankingVisible, DOM Locator: By.id: SPAN__rating__76, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSkuVisible, DOM Locator: By.id: SMALL____84, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateCurrentSizeVisible, DOM Locator: By.className: current, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateQuantityVisible, DOM Locator: By.id: quantity_1, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateAddToCartVisible, DOM Locator: By.id: A__btn__114, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validatePriceVisible, DOM Locator: By.id: new_price, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateOldPriceVisible, DOM Locator: By.id: old_price, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateDiscountVisible, DOM Locator: By.id: discount, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSizeText, DOM Locator: By.className: current, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateOldPriceStyle, DOM Locator: By.id: old_price, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validatePriceText, DOM Locator: By.id: new_price, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateOldPriceText, DOM Locator: By.id: old_price, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateImageContent, DOM Locator: By.id: shoe_img, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 3, Test Name: validateSKUStyle, DOM Locator: By.id: SMALL____84, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Fail
+Task: 3, Test Name: validateAddToCartMargin, DOM Locator: By.id: DIV__btnaddtoca__113, Browser: Edge, Viewport: 1200x700, Device: Laptop, Status: Pass
+Task: 1, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateShoesNameVisible, DOM Locator: By.id: shoe_name, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateImageShoeVisible, DOM Locator: By.id: shoe_img, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateRankingVisible, DOM Locator: By.id: SPAN__rating__76, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSkuVisible, DOM Locator: By.id: SMALL____84, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCurrentSizeVisible, DOM Locator: By.className: current, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateQuantityVisible, DOM Locator: By.id: quantity_1, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateAddToCartVisible, DOM Locator: By.id: A__btn__114, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validatePriceVisible, DOM Locator: By.id: new_price, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateOldPriceVisible, DOM Locator: By.id: old_price, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateDiscountVisible, DOM Locator: By.id: discount, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSizeText, DOM Locator: By.className: current, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateOldPriceStyle, DOM Locator: By.id: old_price, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validatePriceText, DOM Locator: By.id: new_price, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateOldPriceText, DOM Locator: By.id: old_price, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateImageContent, DOM Locator: By.id: shoe_img, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSKUStyle, DOM Locator: By.id: SMALL____84, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateAddToCartMargin, DOM Locator: By.id: DIV__btnaddtoca__113, Browser: Chrome, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateShoesNameVisible, DOM Locator: By.id: shoe_name, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateImageShoeVisible, DOM Locator: By.id: shoe_img, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateRankingVisible, DOM Locator: By.id: SPAN__rating__76, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSkuVisible, DOM Locator: By.id: SMALL____84, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCurrentSizeVisible, DOM Locator: By.className: current, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateQuantityVisible, DOM Locator: By.id: quantity_1, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateAddToCartVisible, DOM Locator: By.id: A__btn__114, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validatePriceVisible, DOM Locator: By.id: new_price, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateOldPriceVisible, DOM Locator: By.id: old_price, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateDiscountVisible, DOM Locator: By.id: discount, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSizeText, DOM Locator: By.className: current, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateOldPriceStyle, DOM Locator: By.id: old_price, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validatePriceText, DOM Locator: By.id: new_price, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateOldPriceText, DOM Locator: By.id: old_price, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateImageContent, DOM Locator: By.id: shoe_img, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateSKUStyle, DOM Locator: By.id: SMALL____84, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateAddToCartMargin, DOM Locator: By.id: DIV__btnaddtoca__113, Browser: Firefox, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 2, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateShoesNameVisible, DOM Locator: By.id: shoe_name, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateImageShoeVisible, DOM Locator: By.id: shoe_img, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateRankingVisible, DOM Locator: By.id: SPAN__rating__76, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSkuVisible, DOM Locator: By.id: SMALL____84, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateCurrentSizeVisible, DOM Locator: By.className: current, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateQuantityVisible, DOM Locator: By.id: quantity_1, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateAddToCartVisible, DOM Locator: By.id: A__btn__114, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validatePriceVisible, DOM Locator: By.id: new_price, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateOldPriceVisible, DOM Locator: By.id: old_price, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateDiscountVisible, DOM Locator: By.id: discount, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSizeText, DOM Locator: By.className: current, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateOldPriceStyle, DOM Locator: By.id: old_price, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validatePriceText, DOM Locator: By.id: new_price, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateOldPriceText, DOM Locator: By.id: old_price, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateImageContent, DOM Locator: By.id: shoe_img, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Pass
+Task: 3, Test Name: validateSKUStyle, DOM Locator: By.id: SMALL____84, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 3, Test Name: validateAddToCartMargin, DOM Locator: By.id: DIV__btnaddtoca__113, Browser: Edge, Viewport: 800x700, Device: Tablet, Status: Fail
+Task: 1, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 1, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateFilterIconVisible, DOM Locator: By.id: ti-filter, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 2, Test Name: validateGridViewVisible, DOM Locator: By.className: ti-view-grid, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateListViewVisible, DOM Locator: By.className: ti-view-list, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateCountElement, DOM Locator: By.cssSelector: #product_grid .grid_item, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateProductHeartVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-heart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateProductShuffleVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-control-shuffle, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 2, Test Name: validateProductShoppingVisible, DOM Locator: css selector: #product_grid .grid_item -> .ti-shopping-cart, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 3, Test Name: validateMainMenuVisible, DOM Locator: By.id: DIV__mainmenu__15, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateSearchIconVisible, DOM Locator: By.id: A__btnsearchm__59, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateSearchBarDivVisible, DOM Locator: By.id: DIV__customsear__41, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateSearchBarIconVisible, DOM Locator: By.id: BUTTONsubmit____43, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateSearchBarInputVisible, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateSearchBarText, DOM Locator: By.id: INPUTtext____42, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateAccessLinkVisible, DOM Locator: By.id: A__accesslink__56, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateWishListVisible, DOM Locator: By.id: A__wishlist__52, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateCartVisible, DOM Locator: By.id: A__cartbt__49, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateCartValueVisible, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateCartValue, DOM Locator: By.id: STRONG____50, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateToolsMargin, DOM Locator: id: UL__toptools__46 -> li, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateShoesNameVisible, DOM Locator: By.id: shoe_name, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateImageShoeVisible, DOM Locator: By.id: shoe_img, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateRankingVisible, DOM Locator: By.id: SPAN__rating__76, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateSkuVisible, DOM Locator: By.id: SMALL____84, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateCurrentSizeVisible, DOM Locator: By.className: current, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateQuantityVisible, DOM Locator: By.id: quantity_1, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateAddToCartVisible, DOM Locator: By.id: A__btn__114, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validatePriceVisible, DOM Locator: By.id: new_price, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateOldPriceVisible, DOM Locator: By.id: old_price, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateDiscountVisible, DOM Locator: By.id: discount, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateSizeText, DOM Locator: By.className: current, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 3, Test Name: validateOldPriceStyle, DOM Locator: By.id: old_price, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 3, Test Name: validatePriceText, DOM Locator: By.id: new_price, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 3, Test Name: validateOldPriceText, DOM Locator: By.id: old_price, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateImageContent, DOM Locator: By.id: shoe_img, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
+Task: 3, Test Name: validateSKUStyle, DOM Locator: By.id: SMALL____84, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Fail
+Task: 3, Test Name: validateAddToCartMargin, DOM Locator: By.id: DIV__btnaddtoca__113, Browser: Chrome, Viewport: 500x700, Device: Mobile, Status: Pass
