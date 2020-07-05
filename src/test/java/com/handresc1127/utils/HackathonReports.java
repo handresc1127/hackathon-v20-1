@@ -76,17 +76,17 @@ public class HackathonReports extends BaseTests{
             isElementVisible=!isElementVisible;
         }
         String[] locators = element.toString().split("->");
-        String locator="";
+        StringBuilder locator= new StringBuilder();
         boolean hasLocator=false;
         for(int i=1;i<locators.length;i++){
             if(hasLocator){
-                locator+=" -> "+locators[i].replace("]","").split(":")[1].trim();
+                locator.append(" -> ").append(locators[i].replace("]", "").split(":")[1].trim());
             }else{
-                locator+=locators[i].replace("]","").trim();
+                locator.append(locators[i].replace("]", "").trim());
             }
             hasLocator=true;
         }
-        return hackathonReporter(locator,element.isDisplayed()==isElementVisible);
+        return hackathonReporter(locator.toString(),element.isDisplayed()==isElementVisible);
     }
 
     protected static boolean validateAttribute(By locator,String attribute, String expectedValue){
@@ -105,7 +105,7 @@ public class HackathonReports extends BaseTests{
     }
 
     protected static boolean validateText(By locator, String deviceRule, String valueDevice, String valueNoDevice){
-        String valueExpected="";
+        String valueExpected;
         if(device.toLowerCase().equals(deviceRule.toLowerCase())){
             valueExpected=valueDevice;
         }else{
@@ -129,16 +129,16 @@ public class HackathonReports extends BaseTests{
 
     protected static boolean validateEnabled(WebElement element, Boolean isEnabled){
         String[] locators = element.toString().split("->");
-        String locator="";
+        StringBuilder locator= new StringBuilder();
         boolean hasLocator=false;
         for(int i=1;i<locators.length;i++){
             if(hasLocator){
-                locator+=" -> "+locators[i].replace("]","").split(":")[1].trim();
+                locator.append(" -> ").append(locators[i].replace("]", "").split(":")[1].trim());
             }else{
-                locator+=locators[i].replace("]","").trim();
+                locator.append(locators[i].replace("]", "").trim());
             }
             hasLocator=true;
         }
-        return hackathonReporter(locator,element.isEnabled()==isEnabled);
+        return hackathonReporter(locator.toString(),element.isEnabled()==isEnabled);
     }
 }

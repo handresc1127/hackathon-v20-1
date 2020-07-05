@@ -86,13 +86,13 @@ public class headerPage extends HackathonReports {
             String currentValue=toolBtn.getCssValue("margin-left");
 
             String[] locators = toolBtn.toString().split("->");
-            String locator="";
+            StringBuilder locator= new StringBuilder();
             boolean hasLocator=false;
             for(int i=1;i<locators.length;i++){
                 if(hasLocator){
-                    locator+=" -> "+locators[i].replace("]","").split(":")[1].trim();
+                    locator.append(" -> ").append(locators[i].replace("]", "").split(":")[1].trim());
                 }else{
-                    locator+=locators[i].replace("]","").trim();
+                    locator.append(locators[i].replace("]", "").trim());
                 }
                 hasLocator=true;
             }
@@ -103,7 +103,7 @@ public class headerPage extends HackathonReports {
                     margin="0px";
                 }
             }
-            if(!hackathonReporter(locator,currentValue.equals(margin))){
+            if(!hackathonReporter(locator.toString(),currentValue.equals(margin))){
                 returnValue= false;
             }
         }
