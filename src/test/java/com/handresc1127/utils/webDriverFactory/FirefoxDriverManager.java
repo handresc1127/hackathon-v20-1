@@ -9,6 +9,7 @@ import java.io.File;
 public class FirefoxDriverManager extends DriverManager {
     @Override
     protected void createDriver(String type) {
+        setDriverFile("gecko");
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("disable-infobars");
         options.addArguments("--disable-extensions");

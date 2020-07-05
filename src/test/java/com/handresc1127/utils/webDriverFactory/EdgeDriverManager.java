@@ -7,6 +7,7 @@ public class EdgeDriverManager extends DriverManager {
 
     @Override
     protected void createDriver(String type) {
+        setDriverFile("edge");
         EdgeOptions options = new EdgeOptions();
         //options.setCapability("useAutomationExtension", false);
         // options.addArguments("user-agent=foo;bar");
