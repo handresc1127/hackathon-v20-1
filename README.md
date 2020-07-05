@@ -60,9 +60,19 @@ Page Object pattern was used for the test implementation which
             |   testngTraditionalV2.xml
             |
             \---drivers
-                    chromedriver.exe
-                    geckodriver.exe
-                    msedgedriver.exe
+                +---linux
+                |       chromedriver
+                |       geckodriver
+                |
+                +---mac
+                |       chromedriver
+                |       geckodriver
+                |       msedgedriver
+                |
+                \---windows
+                        chromedriver.exe
+                        geckodriver.exe
+                        msedgedriver.exe
 ```
 
 ## Pre-requirements 📋
@@ -71,6 +81,7 @@ Page Object pattern was used for the test implementation which
 2. Firefox V75.0+
 3. Microsoft Edge V83+
 4. Java 11
+5. Config src\test\resources\test.properties
 
 ## Install 🔧
 
@@ -87,9 +98,9 @@ Page Object pattern was used for the test implementation which
 ## Build 🛠️
 
 ### _WebDrivers_
-* Google Chrome   - [ChromeDriver](https://chromedriver.chromium.org/downloads) 83.0.4103.39 Winx32
-* Mozilla Firefox - [GeckoDriver](https://github.com/mozilla/geckodriver/releases)  0.26.0 Winx64
-* Microsoft Edge  - [MsEdgeDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) 83.0.478.50 Winx64 
+* Google Chrome   - [ChromeDriver](https://chromedriver.chromium.org/downloads) 83.0.4103.39
+* Mozilla Firefox - [GeckoDriver](https://github.com/mozilla/geckodriver/releases)  0.26.0
+* Microsoft Edge  - [MsEdgeDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) 83.0.478.50
 
 ### _Tools_
 * [Maven](https://maven.apache.org/) - Dependency manager
