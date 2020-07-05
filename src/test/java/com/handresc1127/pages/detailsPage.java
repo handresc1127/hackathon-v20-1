@@ -1,10 +1,9 @@
 package com.handresc1127.pages;
 
-import com.handresc1127.utils.BaseTests;
+import com.handresc1127.utils.HackathonReports;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
-public class detailsPage extends BaseTests {
+public class detailsPage extends HackathonReports {
 
     static By shoesName= By.id("shoe_name");
     static By shoeImage= By.id("shoe_img");
@@ -16,31 +15,6 @@ public class detailsPage extends BaseTests {
     static By price = By.id("new_price");
     static By oldPrice = By.id("old_price");
     static By discount= By.id("discount");
-
-    // ==============================
-    private static boolean validateDisplayed(By locator, String deviceRule, boolean isElementVisible){
-        if(!device.toLowerCase().equals(deviceRule.toLowerCase())){
-            isElementVisible=!isElementVisible;
-        }
-        WebElement element = driver.findElement(locator);
-        return hackathonReporter(locator.toString(),element.isDisplayed()==isElementVisible);
-    }
-
-    private static boolean validateDisplayed(By locator){
-        WebElement element = driver.findElement(locator);
-        return hackathonReporter(locator.toString(),element.isDisplayed()==true);
-    }
-
-    private static boolean validateAttributeContains(By locator,String attribute, String expectedValue){
-        String currentValue= driver.findElement(locator).getAttribute(attribute);
-        return hackathonReporter(locator.toString(),currentValue.contains(expectedValue));
-    }
-
-    private static boolean validateText(By locator, String valueDevice){
-        String currentValue=driver.findElement(locator).getText();
-        return hackathonReporter(locator.toString(),currentValue.equals(valueDevice));
-    }
-    // ==============================
 
     public static boolean validateShoesNameVisible(){
         return validateDisplayed(shoesName);
@@ -100,6 +74,5 @@ public class detailsPage extends BaseTests {
     public static boolean validateImageContent(){
         return validateAttributeContains(shoeImage,"style","grid/img/products/shoes/1.jpg");
     }
-
 
 }
