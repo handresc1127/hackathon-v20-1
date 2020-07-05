@@ -2,6 +2,20 @@
 Cross Browser Testing.\
 Applitools Hackathon
 
+The next table compares some attributes to consider while choosing between 
+a traditional or modern approach.
+
+| Attribute| Traditional | Modern |
+| ----------- | ----------- |----------- |
+| QA Seniority require | Semi Senior | Junior |
+| Maintainability | Low | High |
+| Running Time | 183 secs | 97 secs |
+| Code Lines | 885 | 248 |
+| # Locators | 37 | 5 |
+| Complexity | High | Low |
+| Spent time | 84h | 3h |
+
+
 ## Starting 🚀
 
 ### WebDriver Factory
