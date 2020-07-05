@@ -106,8 +106,7 @@ Page Object pattern was used for the test implementation which
 
 ## Tests Run ⚙️
 
-...
-
+1. Al tests `mvn test`
 
 ## Build 🛠️
 
