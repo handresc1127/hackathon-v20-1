@@ -41,6 +41,10 @@ public class homePage extends BaseTests {
     static By productShuffle = By.cssSelector(".ti-control-shuffle");
     static By productShopping = By.cssSelector(".ti-shopping-cart");
 
+    static By tools= By.id("UL__toptools__46");
+    static By toolsButton= By.tagName("li");
+
+
     public static void navigateToV1(){
         driver.get(urlV1);
     }
@@ -120,13 +124,14 @@ public class homePage extends BaseTests {
 
     public static boolean validateParentVisible(By locatorPattern, By locatorChild, String deviceRule){
         List<WebElement> products= driver.findElements(locatorPattern);
+        boolean returnValue=true;
         for (WebElement product:products) {
             WebElement heart= product.findElement(locatorChild);
             if(!validateDisplayed(heart, deviceRule, false)){
-                return false;
+                returnValue= false;
             }
         }
-        return true;
+        return returnValue;
     }
 
     private static boolean validateAttribute(By locator,String attribute, String expectedValue){
@@ -168,7 +173,12 @@ public class homePage extends BaseTests {
     }
 
     public static boolean validateWishListVisible() {
-        return validateDisplayed(wishListIcon,"laptop",true);
+        if(!methodName.equals("task3")){
+            return validateDisplayed(wishListIcon,"laptop",true);
+        }else{
+            return validateDisplayed(wishListIcon);
+        }
+
     }
 
     public static boolean validateAccessLinkVisible() {
@@ -219,6 +229,34 @@ public class homePage extends BaseTests {
     }
     public static boolean validateProductShoppingVisible(){
         return validateParentVisible(productOnGrid,productShopping,"laptop");
+    }
+
+    public static boolean validateToolsMargin(){
+        WebElement toolBox= driver.findElement(tools);
+        List<WebElement> toolsList= toolBox.findElements(toolsButton);
+
+        boolean returnValue=true;
+        for (WebElement toolBtn:toolsList) {
+            String currentValue=toolBtn.getCssValue("margin-left");
+
+            String[] locators = toolBtn.toString().split("->");
+            String locator="";
+            boolean hasLocator=false;
+            for(int i=1;i<locators.length;i++){
+                if(hasLocator){
+                    locator+=" -> "+locators[i].replace("]","").split(":")[1].trim();
+                }else{
+                    locator+=locators[i].replace("]","").trim();
+                }
+                hasLocator=true;
+            }
+
+            if(!hackathonReporter(locator,currentValue.equals("20px"))){
+                returnValue= false;
+            }
+        }
+        return returnValue;
+
     }
 
 
