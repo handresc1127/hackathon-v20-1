@@ -1,5 +1,6 @@
 # Hackathon v20-1
-Applitools Cross Browser Testing Hackathon
+Cross Browser Testing.\
+Applitools Hackathon
 
 ## Starting 🚀
 
@@ -13,6 +14,56 @@ template & saves a lot of time and effort.
 Traditional cross browsing tests must have parameters as the 
 browser type. For that reason, instructed TestNG to pass you 
 the browser type with the `@Parameters` annotation and a testng.xml file.
+
+### Page Object
+Page Object pattern was used for the test implementation which
+ goal was to model the pages and their behaviors to achieve clear
+  test of writing, understanding, avoid duplicate code, and easy
+   to maintenance.
+
+### Project Tree
+```
+\---src
+    \---test
+        +---java
+        |   \---com
+        |       \---handresc1127
+        |           |   ModernTestsV1.java
+        |           |   ModernTestsV2.java
+        |           |   TraditionalTestsV1.java
+        |           |   TraditionalTestsV2.java
+        |           |
+        |           +---pages
+        |           |       detailsPage.java
+        |           |       headerPage.java
+        |           |       homePage.java
+        |           |
+        |           \---utils
+        |               |   BaseTests.java
+        |               |   EyesManager.java
+        |               |   HackathonReports.java
+        |               |   PropertyLoader.java
+        |               |
+        |               \---webDriverFactory
+        |                       ChromeDriverManager.java
+        |                       DriverManager.java
+        |                       DriverManagerFactory.java
+        |                       EdgeDriverManager.java
+        |                       FirefoxDriverManager.java
+        |
+        \---resources
+            |   author.png
+            |   test.properties
+            |   testngModernV1.xml
+            |   testngModernV2.xml
+            |   testngTraditionalV1.xml
+            |   testngTraditionalV2.xml
+            |
+            \---drivers
+                    chromedriver.exe
+                    geckodriver.exe
+                    msedgedriver.exe
+```
 
 ## Pre-requirements 📋
 
@@ -28,19 +79,12 @@ the browser type with the `@Parameters` annotation and a testng.xml file.
 2. mvn clean install 
 ```
 
-## Run ⚙️
+## Tests Run ⚙️
 
 ...
 
-## Tests 🔩
 
-_Why we do these test?_
-
-```
-
-```
-
-## Build with 🛠️
+## Build 🛠️
 
 ### _WebDrivers_
 * Google Chrome   - [ChromeDriver](https://chromedriver.chromium.org/downloads) 83.0.4103.39 Winx32
@@ -54,4 +98,7 @@ _Why we do these test?_
 ## Author ✒️
 
 * **Henry Andrés Correa Correa** - [Linkedin](https://www.linkedin.com/in/henryandrescorrea/) -  [h.andresc1127@gmai.com](mailto:h.andresc1127@gmai.com)
-![author](resources\author.png "Henry Andres Correa Correa")
+![author](src\test\resources\author.png "Henry Andres Correa Correa")
+
+### Hackathon2019
+![GoldWinner](src\test\resources\goldWinner.jpg "Hackathon 2019")
