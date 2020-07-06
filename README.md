@@ -15,27 +15,32 @@ a traditional or modern approach.
 | Complexity | High | Low |
 | Spent time | 84h | 3h |
 
+### *Likes about the modern approach with Applitools* 😍
+- Super easy to implement tests.
+- Saves a lot of time in the test design and execution, this leads to save money.
+- Test maintenance is almost null.
+- The Issues report is very easy to do, is made up of text and an image that helps to understand it.
 
 ## Starting 🚀
 
-### WebDriver Factory
+### *WebDriver Factory* 🏭
 In the traditional testing methods apply the Factory Pattern. 
 Eviting problems while designing the automated tests, these 
 design patterns could immediately help by proving a formula /
 template & saves a lot of time and effort.
 
-### Data Driven
+### *Data Driven* 📂
 Traditional cross browsing tests must have parameters as the 
 browser type. For that reason, instructed TestNG to pass you 
 the browser type with the `@Parameters` annotation and a testng.xml file.
 
-### Page Object
+### *Page Object* 📃
 Page Object pattern was used for the test implementation which
  goal was to model the pages and their behaviors to achieve clear
   test of writing, understanding, avoid duplicate code, and easy
    to maintenance.
 
-### Project Tree
+### *Project Tree* 🌳
 ```
 \---src
     \---test
@@ -97,7 +102,7 @@ Page Object pattern was used for the test implementation which
 4. Java 11
 5. Config src\test\resources\test.properties
 
-## Install 🔧
+## Install 📌
 
 ```
 1. git clone
@@ -110,12 +115,12 @@ Page Object pattern was used for the test implementation which
 
 ## Build 🛠️
 
-### _WebDrivers_
+### *WebDrivers* 🎮
 * Google Chrome   - [ChromeDriver](https://chromedriver.chromium.org/downloads) 83.0.4103.39
 * Mozilla Firefox - [GeckoDriver](https://github.com/mozilla/geckodriver/releases)  0.26.0
 * Microsoft Edge  - [MsEdgeDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) 83.0.478.50
 
-### _Tools_
+### *Tools* 🔧
 * [Maven](https://maven.apache.org/) - Dependency manager
 * [TestNG](https://testng.org/) - Testing Framework
 
@@ -124,5 +129,5 @@ Page Object pattern was used for the test implementation which
 * **Henry Andrés Correa Correa** - [Linkedin](https://www.linkedin.com/in/henryandrescorrea/) -  [h.andresc1127@gmai.com](mailto:h.andresc1127@gmai.com) \
 ![author](src/test/resources/author.png "Henry Andres Correa Correa")
 
-### Hackathon2019
+### *Hackathon2019* 🌟
 ![GoldWinner](src/test/resources/goldWinner.jpg "Hackathon 2019")
